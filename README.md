@@ -2,15 +2,21 @@
 
 Tool to automate account information retrieval and DSL modem testing. Written in AutoHotkey(AHK)
 
-This repository exists to give an example of my approach to problem solving using software.  
-This script has been scrubbed to remove the actual URLs and tool names used at the company that I worked for.
+This software is not useful as-is, it was developed as an internal ISP tool. The script has been scrubbed to remove the actual URLs and tool names used at the company that I worked for.  This repository exists to give an example of my approach to problem solving using software.  
 
-This is my first crack at any kind of programming past 'hello world' - I realize the code is probably a mess.
-I just first needed it to work.
+In January of 2019, I became obsessed with automating the boring bits of my support job.  This is my first crack at any kind of programming past basic tutorials and 'hello world' - I realize the structure of the code is probably a mess.  I just first needed it to work.  It took about 3 weeks to get this all working correctly.  
 
-The DSL support contract that I was on ended before I could get my team to use this software, but it served me well in the few weeks I was able to use it.
+I learned a good deal about a lot of things, namely:
 
-I left some code sections in that are commented out because I left the contract so quickly that I couldn't remember why they were commented out.
+* Scraping DOM elements with Selenium Web Driver
+* A few regular expressions to manipulate data
+* Splitting data into arrays for processing
+* Building a GUI with AutoHotkey
+* Patience during the software building process
+
+The DSL support contract that I was on ended before I could get my team to use this software, I had been looking forward to getting bug reports and feature requests.
+
+I left some code sections in that are commented out because I left the contract so quickly that I couldn't remember why they were commented out.  
 
 ## Prerequisites
 
@@ -28,9 +34,9 @@ I left some code sections in that are commented out because I left the contract 
 * [SciTE4AutoHotkey](https://github.com/fincs/SciTE4AutoHotkey) - Code editor for AutoHotkey
 * [Darchon](https://github.com/ahkon/Darchon) - Excellent dark theme syntax highlighting for the AutoHotkey language
 
-## Authors
+## Author
 
-**Brian Watt**
+Brian Watt
 
 ## License
 
